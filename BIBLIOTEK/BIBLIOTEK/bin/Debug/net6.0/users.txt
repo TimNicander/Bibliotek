@@ -1,0 +1,8 @@
+Admin 0000 test admin 
+tim 2000 test member -1
+Max 9999 hund admin 
+Arvid 20041219911 HugloSundBomb admin 
+tobias 1999 test member 
+Ella 040808 tim member 
+test 0001 test member 
+tolv 12 12 member 

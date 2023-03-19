@@ -1,0 +1,47 @@
+Information till lärare : 
+För att komma åt ett konto som är bibliotikare/admin kan du logga in med följande information:
+Användarnamn: Admin
+Lösenord: test
+Genom det kontot kan du antingen komma åt alla admnin funktioner eller ändra ditt egna konto till admin/bibliotikarie.
+För att komma åt funktionen att reservera en bok måste antalet kopior av den boken vara 0, alltså kan du behöva låna 
+flera kopior av en bok för att få den till 0 och sedan kunna reservera den. Du kan låna flera kopior av en bok från ett 
+konto men jag skulle rekomendera att reservera en bok från ett annat konto. När en bok som någon har reserverats lämnas 
+tillbaka ska den automatiskt hamna hos den användare som står först i kön. För att se kön kan du se användarnamnen i 
+books.txt filen, användarnamnen är listade längst bak på raden med en boks information och om ingen har reserverat den
+så finns det ingen information om reserverade användare. 
+
+Detta är saker som hade kunnat förbättras med programmet med mer tid: 
+* En användare kan inte välja att ta bort sig själv från att reservera en bok, enda sättet den kan tas bort från
+  reserveringen är genom att någon lämnar tillbaka den reserverade boken och användaren då automatiskt får boken till
+  sitt konto. 
+
+* En användare kan låna flera kopior av samma bok och kan också reservera en bok de redan har lånat. 
+
+* Om en bibliotikarie redigerar en bok så att det finns flera kopior av den kommer inte de som reserverat boken automatiskt 
+  få den på sitt konto föräns någon lämnar tillbaka en kopia av boken. Detta leder också till att om användare reserverat en 
+  bok, och sedan lånar samma bok efter att en biblitokiarie ökat antalet, när användaren sedan lämnar tillbaka boken kommer de
+  direkt få tillbaka boken på sitt konto eftersom att de fortfarande har reservert den
+
+* Om en bibliotikarie raderar en bok som en användare har lånat kommer användaren fortfarande ha denna bok lånad på sitt konto. 
+  Användare kan inte se att de har boken lånad men de kan retunera boken. 
+
+* Om en bibliotikarie vill öka mängden kopior av en bok måste den göra det genom att redigera informatioen om boken, det går inte 
+  att göra genom att lägga till en ny likadan bok. 
+
+* Användaren sägs till att inte använda mellanrum eller - i sitt konto eller när en bilbiotikarie lägger till böcker, det är inget
+  som faktist stoppar användaren från att göra detta. 
+
+* Library system använder sig av en instace i början av varje .cs fil. User och Book använder sig inte av en sådan instace och behöver
+  därför definera en ny instace varje gång någon metod ska kallas. För att förbättra programmet hade User och Book gjorts om så att de
+  använder sig av en liknande instace som library system. 
+
+* När en användare har reserverat en bok kan den inte ändra information om sitt konto, om den väljer att redigera information om sitt 
+  konto blir den tillsagd att den inte kan göra det med en reserverad bok men även att ingen information har förändrats blir användaren 
+  utloggade. Detta hade gått att lösa genom att retunera en bool i change information metoden som säger till om användaren fick ändra sin
+  information eller inte
+
+* Små detaljer såsom att programmet ger i stort sätt samma text för en admin som redigerar någon annans konto och en användare som redigerar
+  sitt egna konto. Programmet säger tillexemepel "ditt konto". Hade gått att lösa genom flera if-statments som skriver olika saker beroende
+  på användarens konto klass 
+
+

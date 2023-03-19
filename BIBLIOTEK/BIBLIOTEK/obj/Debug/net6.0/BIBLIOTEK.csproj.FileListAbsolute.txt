@@ -1,0 +1,15 @@
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\bin\Debug\net6.0\BIBLIOTEK.exe
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\bin\Debug\net6.0\BIBLIOTEK.deps.json
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\bin\Debug\net6.0\BIBLIOTEK.runtimeconfig.json
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\bin\Debug\net6.0\BIBLIOTEK.dll
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\bin\Debug\net6.0\BIBLIOTEK.pdb
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\obj\Debug\net6.0\BIBLIOTEK.csproj.AssemblyReference.cache
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\obj\Debug\net6.0\BIBLIOTEK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\obj\Debug\net6.0\BIBLIOTEK.AssemblyInfoInputs.cache
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\obj\Debug\net6.0\BIBLIOTEK.AssemblyInfo.cs
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\obj\Debug\net6.0\BIBLIOTEK.csproj.CoreCompileInputs.cache
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\obj\Debug\net6.0\BIBLIOTEK.dll
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\obj\Debug\net6.0\refint\BIBLIOTEK.dll
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\obj\Debug\net6.0\BIBLIOTEK.pdb
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\obj\Debug\net6.0\BIBLIOTEK.genruntimeconfig.cache
+C:\Users\tim.nicander\Desktop\programmering 2\BIBLIOTEK\BIBLIOTEK\obj\Debug\net6.0\ref\BIBLIOTEK.dll
